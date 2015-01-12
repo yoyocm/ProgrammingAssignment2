@@ -6,7 +6,6 @@
 ## Second get the matrix value
 ## Third set the inversed matrix value
 ## Fourth get the inversed matrix value
-
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
@@ -24,7 +23,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Get a matrix in argument and return her inversed
 ## If the inversed matrix is in cache, it is returned
 ## Else, the inversed matrix is solved and returned 
-
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
 
